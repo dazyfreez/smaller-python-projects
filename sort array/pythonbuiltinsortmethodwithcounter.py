@@ -10,7 +10,7 @@ print("if yes, please enter the number")
 print("if no, please enter 0")
 number = int(input())
 if number == 0:
-    print("Array after sorting: ", sorted(array))
+    
 else:
     print("Array after sorting: ", sorted(array))
     print("the number of", number, "is", array.count(number))
