@@ -1,8 +1,7 @@
 print("how many digits should the array have")
 number = int(input())    # number of digits in the array
 array = []
-for i in range(number):
-    array.append(int(input()))
+
 print("Array before sorting: ", array)
 print(sorted(array))
 print("do you want to count certain nubber in the array?")
