@@ -2,7 +2,8 @@ import numpy as np
 print("how many digits should the array have")
 number = int(input())    # number of digits in the array
 array = np.random.randint(10,90,(4,5)) # random numpy array of shape (4,5)
-print("Second array", array)                                                        
+print("first array", array)                                                        
+
 print("Array before sorting: ", array)
 print(sorted(array))
 print("do you want to count certain nubber in the array?")
