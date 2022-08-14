@@ -1,7 +1,7 @@
 import numpy as np
 print("how many digits should the array have")
 x = int(input())    # number of digits in the array
-array = np.random.randint(1,1000,(x-1, x)) # random numpy array of shape (4,5)
+array = np.random.randint(1,1000,(4, 5)) # random numpy array of shape (4,5)
 print("first array", array) # print the array                                        
 print("Array before sorting: ", array) # print the array before sorting
 print(sorted(array)) # print the array after sorting 
