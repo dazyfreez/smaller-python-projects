@@ -2,6 +2,8 @@ import numpy as np
 print("how many digits should the array have")
 number = int(input())    # number of digits in the array
 array = []
+rand_int2 = np.random.randint(10,90,(4,5)) # random numpy array of shape (4,5)
+print("Second array", rand_int2)                                                        
 
 print("Array before sorting: ", array)
 print(sorted(array))
