@@ -14,3 +14,4 @@ if number == 0:
 else:
     print("Array after sorting: ", sorted(array))
     print("the number of", number, "is", array.count(number))
+    
