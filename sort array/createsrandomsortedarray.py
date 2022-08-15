@@ -15,3 +15,5 @@ else:
     print("Array after sorting: ", sorted(array))
     print("the number of", number, "is", array.count(number))
 # array = [5, 4, 3, 2, 1, 3, 5, 6, 8, 10, 9, 7, 6, 5, 4, 3, 2, 1, 0]    # array to be sorted
+# print("Array before sorting: ", array) # print the array before sorting
+# print(sorted(array)) # print the array after sorting
