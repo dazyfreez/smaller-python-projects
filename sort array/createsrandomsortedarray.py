@@ -11,6 +11,12 @@ print("if no, please enter 0")
 number = int(input())
 if number == 0:
     print("Array after sorting: ", sorted(array))
+    print("do you want to reverse sort the array?")
+    print("if yes, please enter 1")
+    print("if no, please enter 0")
+    reverse = int(input())
+    if reverse == 1:
+        print("Array after reverse sorting: ", sorted(array, reverse=True))
 else:
     print("Array after sorting: ", sorted(array))
     print("the number of", number, "is", array.count(number))
