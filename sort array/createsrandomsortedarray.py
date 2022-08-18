@@ -20,6 +20,12 @@ if number == 0:
 else:
     print("Array after sorting: ", sorted(array))
     print("the number of", number, "is", array.count(number))
+    print("do you want to reverse sort the array?")
+    print("if yes, please enter 1")
+    print("if no, please enter 0")
+    reverse = int(input())
+    if reverse == 1:
+        print("Array after reverse sorting: ", sorted(array, reverse=True))
 # array = [5, 4, 3, 2, 1, 3, 5, 6, 8, 10, 9, 7, 6, 5, 4, 3, 2, 1, 0]    # array to be sorted
 # print("Array before sorting: ", array) # print the array before sorting
 # print(sorted(array)) # print the array after sorting
