@@ -39,8 +39,10 @@ while True:
             print(num1,"*",num2,"=",multiply(num1,num2))
         elif choice == '4':
             print(num1,"/",num2,"=",divide(num1,num2))
-        break
+        next_task = input("Do you want to continue?(y/n)")
+        if next_task == 'n':
+            break
     else:
         print("Invalid input")
         break
-    
+
