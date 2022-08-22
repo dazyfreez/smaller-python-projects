@@ -42,6 +42,7 @@ while True:
         #lets see if the user wants to continue
         next_task = input("Do you want to continue?(y/n)")
         if next_task == 'n':
+            print("see you next time")
             break
     else:
         print("Invalid input")
