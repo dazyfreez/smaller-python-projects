@@ -16,3 +16,12 @@ def multiply(x,y):
 def divide(x,y):
     return x/y
 
+print("Select operation.")
+print("1.Add")
+print("2.Subtract")
+print("3.Multiply")
+print("4.Divide")
+
+#create a variable for the user input
+choice = input("Enter choice(1/2/3/4):")
+
