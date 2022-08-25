@@ -1,17 +1,24 @@
-#this is a calc which can do multible operations
-#this bot uses python 3
-print("Welcome to the calculator")
-
-#create the multible function for the different operations
-def calculate(x,y,operation):
-    if operation == '+':
-        return x+y
-    elif operation == '-':
-        return x-y
-    elif operation == '*':
-        return x*y
-    elif operation == '/':
-        return x/y
-    else:
-        return "Invalid input"
-        
+x=[]
+amount=int(input("How many numbers?"))
+operation=input("(*), (/), (+), (-)")
+previous1 = 0
+previous2=1
+for i in range(amount):
+    number=int(input("Number: "))
+    x.append(number)
+if operation == "+":
+    for i in range(amount):
+        previous1=x[i]+previous1
+elif operation == "*":
+    for i in range(amount):
+        previous2=x[i]*previous2
+elif operation == "-":
+    for i in range(amount):
+        previous1=x[i]-previous1
+elif operation == "/":
+    for i in range(amount):
+        previous2=x[i]/previous2
+if operation == "+" or operation == "-":
+    print(previous1)
+else:
+    print(previous2)
