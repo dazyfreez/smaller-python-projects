@@ -1,3 +1,4 @@
+#this is a calculator that can handle moren than 2 numbers
 x=[]
 amount=int(input("How many numbers?"))
 operation=input("(*), (/), (+), (-)")
