@@ -22,7 +22,7 @@ else:
     print("the number of", number, "is", array.count(number))
     print("do you want to reverse sort the array?")
     print("if yes, please enter 1")
-    print("if no, please enter 0")
+    print("if no, please enter 0 x")
     reverse = int(input())
     if reverse == 1:
         print("Array after reverse sorting: ", sorted(array, reverse=True))
