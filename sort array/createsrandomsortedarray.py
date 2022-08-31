@@ -32,3 +32,4 @@ else:
 # print("Array before sorting: ", array) # print the array before sorting
 # print(sorted(array)) # print the array after sorting
 # print("Array after sorting: ", sorted(array)) # print the array after sorting
+# print("the number of 3 is", array.count(3)) # print the number of 3 in the array
