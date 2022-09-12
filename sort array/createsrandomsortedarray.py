@@ -35,3 +35,4 @@ else:
 # print("Array after sorting: ", sorted(array)) # print the array after sorting
 # print("the number of 3 is", array.count(3)) # print the number of 3 in the array
 # ur done :D
+# if you want to reverse sort the array, just add reverse=True to the sorted() function
