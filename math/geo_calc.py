@@ -80,3 +80,34 @@ if choice in ('1','2','3'):
             print("The diagonal of the square is", square_diagonal(side))
         else:
             print("Invalid input")
+    elif choice =="3":
+        print("do you want to calculate the area of a triangle? type 1")
+        print("do you want to calculate the perimeter of a triangle? type 2")
+        print("do you want to calculate the height of a triangle? type 3")
+        print("do you want to calculate the base of a triangle? type 4")
+        print("do you want to calculate the side of a triangle? type 5")
+        choice = input("Enter choice(1/2/3/4/5):")
+        if choice == "1":
+            base = int(input("Enter the base of the triangle: "))
+            height = int(input("Enter the height of the triangle: "))
+            print("The area of the triangle is", triangle_area(base, height))
+        elif choice == "2":
+            side1 = int(input("Enter the first side of the triangle: "))
+            side2 = int(input("Enter the second side of the triangle: "))
+            side3 = int(input("Enter the third side of the triangle: "))
+            print("The perimeter of the triangle is", triangle_perimeter(side1, side2, side3))
+        elif choice == "3":
+            base = int(input("Enter the base of the triangle: "))
+            area = int(input("Enter the area of the triangle: "))
+            print("The height of the triangle is", triangle_height(base, area))
+        elif choice == "4":
+            height = int(input("Enter the height of the triangle: "))
+            area = int(input("Enter the area of the triangle: "))
+            print("The base of the triangle is", triangle_base(height, area))
+        elif choice == "5":
+            side2 = int(input("Enter the second side of the triangle: "))
+            side3 = int(input("Enter the third side of the triangle: "))
+            perimeter = int(input("Enter the perimeter of the triangle: "))
+            print("The side of the triangle is", triangle_side1(side2, side3, perimeter))
+        else:
+            print("Invalid input")
