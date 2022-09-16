@@ -60,3 +60,23 @@ if choice in ('1','2','3'):
             print("The radius of the circle is", circle_radius(diameter))
         else:
             print("Invalid input")
+    elif choice =="2":
+        print("do you want to calculate the area of a square? type 1")
+        print("do you want to calculate the perimeter of a square? type 2")
+        print("do you want to calculate the side of a square? type 3")
+        print("do you want to calculate the diagonal of a square? type 4")
+        choice = input("Enter choice(1/2/3/4):")
+        if choice == "1":
+            side = int(input("Enter the side of the square: "))
+            print("The area of the square is", square_area(side))
+        elif choice == "2":
+            side = int(input("Enter the side of the square: "))
+            print("The perimeter of the square is", square_perimeter(side))
+        elif choice == "3":
+            perimeter = int(input("Enter the perimeter of the square: "))
+            print("The side of the square is", square_side(perimeter))
+        elif choice == "4":
+            side = int(input("Enter the side of the square: "))
+            print("The diagonal of the square is", square_diagonal(side))
+        else:
+            print("Invalid input")
