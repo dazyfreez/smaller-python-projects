@@ -32,7 +32,7 @@ def triangle_side1(side2, side3, perimeter):
     return perimeter - side2 - side3
 
 # create a list of all the functions to choose from
-print("Select operation.")
+print("Select operation. The units are in cm")
 print("do you want to calculate something with a circle? type 1")   
 print("do you want to calculate something with a square? type 2")   
 print("do you want to calculate something with a triangle? type 3")
