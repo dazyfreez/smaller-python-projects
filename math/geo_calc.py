@@ -30,6 +30,7 @@ def triangle_base(height, area):
     return (2 * area) / height
 def triangle_side1(side2, side3, perimeter):
     return perimeter - side2 - side3
+def triangle_side2(side1, side3, perimeter):
 
 # create a list of all the functions to choose from
 print("Select operation. The units are in cm")
