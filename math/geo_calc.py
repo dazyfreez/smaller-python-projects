@@ -31,7 +31,9 @@ def triangle_base(height, area):
 def triangle_side1(side2, side3, perimeter):
     return perimeter - side2 - side3
 def triangle_side2(side1, side3, perimeter):
-
+    return perimeter - side1 - side3
+def triangle_side3(side1, side2, perimeter):
+    return perimeter - side1 - side2
 # create a list of all the functions to choose from
 print("Select operation. The units are in cm")
 print("do you want to calculate something with a circle? type 1")   
