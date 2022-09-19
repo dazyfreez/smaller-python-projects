@@ -128,3 +128,14 @@ if choice in ('1','2','3'):
             side3 = int(input("Enter the side3 of the triangle: "))
             perimeter = int(input("Enter the perimeter of the triangle: "))
             print("The side1 of the triangle is", triangle_side1(side2, side3, perimeter))
+
+        elif choice == "6":
+            side1 = int(input("Enter the side1 of the triangle: "))
+            side3 = int(input("Enter the side3 of the triangle: "))
+            perimeter = int(input("Enter the perimeter of the triangle: "))
+            print("The side2 of the triangle is", triangle_side2(side1, side3, perimeter))
+        elif choice == "7":
+            side1 = int(input("Enter the side1 of the triangle: "))
+            side2 = int(input("Enter the side2 of the triangle: "))
+            perimeter = int(input("Enter the perimeter of the triangle: "))
+            print("The side3 of the triangle is", triangle_side3(side1, side2, perimeter))
