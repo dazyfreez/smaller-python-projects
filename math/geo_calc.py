@@ -115,3 +115,4 @@ if choice in ('1','2','3'):
             side2 = int(input("Enter the side2 of the triangle: "))
             side3 = int(input("Enter the side3 of the triangle: "))
             print("The perimeter of the triangle is", triangle_perimeter(side1, side2, side3))
+            
