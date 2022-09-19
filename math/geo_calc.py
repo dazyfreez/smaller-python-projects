@@ -148,3 +148,8 @@ if choice in ('1','2','3'):
             side3 = int(input("Enter the side3 of the triangle: "))
             angle = int(input("Enter the angle of the triangle: "))
             print("The side2 of the triangle is", triangle_side2_angle(side1, side3, angle))
+        elif choice == "10":
+            side1 = int(input("Enter the side1 of the triangle: "))
+            side2 = int(input("Enter the side2 of the triangle: "))
+            angle = int(input("Enter the angle of the triangle: "))
+            print("The side3 of the triangle is", triangle_side3_angle(side1, side2, angle))
