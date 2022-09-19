@@ -34,6 +34,16 @@ def triangle_side2(side1, side3, perimeter):
     return perimeter - side1 - side3
 def triangle_side3(side1, side2, perimeter):
     return perimeter - side1 - side2
+def rectangle_area(length, width):
+    return length * width
+def rectangle_perimeter(length, width):
+    return 2 * (length + width)
+def rectangle_length(perimeter, width):
+    return (perimeter - 2 * width) / 2
+def rectangle_width(perimeter, length):
+    return (perimeter - 2 * length) / 2
+def rectangle_diagonal(length, width):
+    return math.sqrt(length**2 + width**2)
 # create a list of all the functions to choose from
 print("Select operation. The units are in cm")
 print("do you want to calculate something with a circle? type 1")   
@@ -89,28 +99,15 @@ if choice in ('1','2','3'):
         print("do you want to calculate the height of a triangle? type 3")
         print("do you want to calculate the base of a triangle? type 4")
         print("do you want to calculate the side of a triangle? type 5")
-        choice = input("Enter choice(1/2/3/4/5):")
+        print("do you want to calculate the side of a triangle? type 6")
+        print("do you want to calculate the side of a triangle? type 7")
+        print("do you want to calculate the side of a triangle? type 8")
+        print("do you want to calculate the side of a triangle? type 9")
+        print("do you want to calculate the side of a triangle? type 10")
+        print("do you want to calculate the side of a triangle? type 11")
+        choice = input("Enter choice(1/2/3/4/5/6/7/8/9/10/11):")
         if choice == "1":
             base = int(input("Enter the base of the triangle: "))
             height = int(input("Enter the height of the triangle: "))
             print("The area of the triangle is", triangle_area(base, height))
         elif choice == "2":
-            side1 = int(input("Enter the first side of the triangle: "))
-            side2 = int(input("Enter the second side of the triangle: "))
-            side3 = int(input("Enter the third side of the triangle: "))
-            print("The perimeter of the triangle is", triangle_perimeter(side1, side2, side3))
-        elif choice == "3":
-            base = int(input("Enter the base of the triangle: "))
-            area = int(input("Enter the area of the triangle: "))
-            print("The height of the triangle is", triangle_height(base, area))
-        elif choice == "4":
-            height = int(input("Enter the height of the triangle: "))
-            area = int(input("Enter the area of the triangle: "))
-            print("The base of the triangle is", triangle_base(height, area))
-        elif choice == "5":
-            side2 = int(input("Enter the second side of the triangle: "))
-            side3 = int(input("Enter the third side of the triangle: "))
-            perimeter = int(input("Enter the perimeter of the triangle: "))
-            print("The side of the triangle is", triangle_side1(side2, side3, perimeter))
-        else:
-            print("Invalid input")
