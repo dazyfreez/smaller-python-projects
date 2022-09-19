@@ -123,3 +123,8 @@ if choice in ('1','2','3'):
             height = int(input("Enter the height of the triangle: "))
             area = int(input("Enter the area of the triangle: "))
             print("The base of the triangle is", triangle_base(height, area))
+        elif choice == "5":
+            side2 = int(input("Enter the side2 of the triangle: "))
+            side3 = int(input("Enter the side3 of the triangle: "))
+            perimeter = int(input("Enter the perimeter of the triangle: "))
+            print("The side1 of the triangle is", triangle_side1(side2, side3, perimeter))
