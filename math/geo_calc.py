@@ -138,4 +138,4 @@ if choice in ('1','2','3'):
             side2 = int(input("Enter the side2 of the triangle: "))
             perimeter = int(input("Enter the perimeter of the triangle: "))
             print("The side3 of the triangle is", triangle_side3(side1, side2, perimeter))
-     
+     #   elif choice == "8":
