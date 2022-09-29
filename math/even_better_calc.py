@@ -7,7 +7,7 @@ def mitternachtsformel (a,b,c):
     x2 = (-b - math.sqrt(b**2 - 4*a*c)) / (2*a)
     return x1, x2
 def discriminant(a,b,c):
-    return b**2 - 4*a*c
+    print (b**2 - 4*a*c)
     if discriminant(a,b,c) > 0:
         print("The equation has two solutions")
     elif discriminant(a,b,c) == 0:
