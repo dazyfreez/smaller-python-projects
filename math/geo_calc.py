@@ -141,3 +141,4 @@ if choice in ('1','2','3'):
      #   elif choice == "8":
         #       side1 = int(input("Enter the side1 of the triangle: "))
         #       side2 = int(input("Enter the side2 of the triangle: "))
+        #       side3 = int(input("Enter the side3 of the triangle: "))
