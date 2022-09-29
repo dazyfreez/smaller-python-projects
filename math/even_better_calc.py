@@ -2,6 +2,13 @@
 
 import math
 
+def main():
+    a = float(input("Enter a: "))
+    b = float(input("Enter b: "))
+    c = float(input("Enter c: "))
+    print("The solutions are: ", mitternachtsformel(a,b,c))
+    print("The discriminant is: ", discriminant(a,b,c))
+main()
 def mitternachtsformel (a,b,c):
     x1 = (-b + math.sqrt(b**2 - 4*a*c)) / (2*a)
     x2 = (-b - math.sqrt(b**2 - 4*a*c)) / (2*a)
@@ -14,10 +21,3 @@ def discriminant(a,b,c):
         print("The equation has one solution")
     else:
         print("The equation has no solution")
-def main():
-    a = float(input("Enter a: "))
-    b = float(input("Enter b: "))
-    c = float(input("Enter c: "))
-    print("The solutions are: ", mitternachtsformel(a,b,c))
-    print("The discriminant is: ", discriminant(a,b,c))
-main()
