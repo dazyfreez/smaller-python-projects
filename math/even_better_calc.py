@@ -20,3 +20,4 @@ def main():
     c = float(input("Enter c: "))
     print("The solutions are: ", mitternachtsformel(a,b,c))
     print("The discriminant is: ", discriminant(a,b,c))
+main()
