@@ -9,6 +9,6 @@ def sinus_cosinus():
     z = np.cos(x)
     plt.plot(x,y,x,z)
     plt.show()
-sinus()
+sinus_cosinus()
 def 
 
