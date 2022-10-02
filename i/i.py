@@ -17,7 +17,7 @@ def show_function():
     plt.show()
 show_function()
 
-def main()
+def main():
     print("1. Sinus and cosinus")
     print("2. Show function")
     ex = input("Enter the number of the exercise you want to run: ")
