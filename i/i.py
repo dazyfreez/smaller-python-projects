@@ -17,17 +17,17 @@ def show_function():
     plt.show()
 show_function()
 
-def main():
-    print("1. Sinus and cosinus")
-    print("2. Show function")
-    ex = input("Enter the number of the exercise you want to run: ")
-    if ex == "1":
-        sinus_cosinus()
-    elif ex == "2":
+
+print("1. Sinus and cosinus")
+print("2. Show function")
+ex = input("Enter the number of the exercise you want to run: ")
+if ex == "1":
+    sinus_cosinus()
+elif ex == "2":
         show_function()
-    else:
-        print("Invalid input")
-        sys.exit()
-main()
+else:
+    print("Invalid input")
+    sys.exit()
+
 
 
