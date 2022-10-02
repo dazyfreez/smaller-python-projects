@@ -6,7 +6,8 @@ import numpy as np
 def sinus():
     x = np.arange(0, 4* np.pi, 0.1)
     y = np.sin(x)
-    plt.plot(x,y)
+    z = np.cos(x)
+    plt.plot(x,y,x,y)
     plt.show()
 sinus()
 
