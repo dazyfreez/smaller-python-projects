@@ -30,4 +30,13 @@ def main():
         sys.exit()
 main()
 
+def intiger():
+    x = int(input("Enter a number: "))
+    y = int(input("Enter a number: "))
+    if x > y:
+        print("The first number is bigger")
+    elif x < y:
+        print("The second number is bigger")
+    else:
+        print("The numbers are equal")
 
