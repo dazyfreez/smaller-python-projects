@@ -45,5 +45,7 @@ def pythagoras():
     b = int(input("Enter a number: "))
     c = math.sqrt(a**2 + b**2)
     print(c)
-    
+
+def motivation():
+    print("You can do it!")
 
