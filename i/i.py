@@ -49,3 +49,6 @@ def pythagoras():
 def motivation():
     print("You can do it! lets go!")
 
+def x():
+    print("x")
+    
