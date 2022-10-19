@@ -69,3 +69,25 @@ def main():
     else:
         print("Invalid input")
         sys.exit()
+
+main()
+
+def main():
+    print("1. Intiger")
+    print("2. Pythagoras")
+    print("3. Motivation")
+    print("4. X")
+    ex = input("Enter the number of the exercise you want to run: ")
+    if ex == "1":
+        intiger()
+    elif ex == "2":
+        pythagoras()
+    elif ex == "3":
+        motivation()
+    elif ex == "4":
+        x()
+    else:
+        print("Invalid input")
+        sys.exit()
+
+main()
