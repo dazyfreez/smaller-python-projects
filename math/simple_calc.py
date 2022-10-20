@@ -48,7 +48,7 @@ while True:
         print("Invalid input")
         break
 
-def main()
+def ha():
     print("Welcome to the calculator")
 
     #create the multible function for the different operations
@@ -95,3 +95,4 @@ def main()
         else:
             print("Invalid input")
             break
+ha()
